@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite FalabellaAUT,Chrome 104.0.5112.81,,,2022-08-17 20:56:36,2022-08-17 20:57:31,"54,957s",PASSED
+,,,,,,,
+Test Cases/inicioSesion/01 - aperturaPagina,Chrome 104.0.5112.81,,,2022-08-17 20:56:37,2022-08-17 20:56:45,"8,507s",PASSED
+Fecha = new java.util.Date(),Chrome 104.0.5112.81,,,2022-08-17 20:56:37,2022-08-17 20:56:37,"0,008s",PASSED
+"Dia = Fecha.format(""dd_MM_yy"")",Chrome 104.0.5112.81,,,2022-08-17 20:56:37,2022-08-17 20:56:37,"0,004s",PASSED
+"Hora = Fecha.format(""hh_mm_ss"")",Chrome 104.0.5112.81,,,2022-08-17 20:56:37,2022-08-17 20:56:37,"0,018s",PASSED
+robot = new java.awt.Robot(),Chrome 104.0.5112.81,,,2022-08-17 20:56:37,2022-08-17 20:56:37,"0,225s",PASSED
+"openBrowser("""")",Chrome 104.0.5112.81,,,2022-08-17 20:56:37,2022-08-17 20:56:40,"2,787s",PASSED
+"navigateToUrl(""https://www.falabella.com/falabella-cl"")",Chrome 104.0.5112.81,,,2022-08-17 20:56:40,2022-08-17 20:56:44,"4,470s",PASSED
+maximizeWindow(),Chrome 104.0.5112.81,,,2022-08-17 20:56:44,2022-08-17 20:56:45,"0,369s",PASSED
+"if (verifyElementPresent(findTestObject(""01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:56:45,2022-08-17 20:56:45,"0,224s",PASSED
+,,,,,,,
+Test Cases/inicioSesion/02 - PopUp articulo carrito,Chrome 104.0.5112.81,,,2022-08-17 20:56:45,2022-08-17 20:56:58,"12,617s",PASSED
+Fecha = new java.util.Date(),Chrome 104.0.5112.81,,,2022-08-17 20:56:46,2022-08-17 20:56:46,"0,000s",PASSED
+"Dia = Fecha.format(""dd_MM_yy"")",Chrome 104.0.5112.81,,,2022-08-17 20:56:46,2022-08-17 20:56:46,"0,000s",PASSED
+"Hora = Fecha.format(""hh_mm_ss"")",Chrome 104.0.5112.81,,,2022-08-17 20:56:46,2022-08-17 20:56:46,"0,001s",PASSED
+robot = new java.awt.Robot(),Chrome 104.0.5112.81,,,2022-08-17 20:56:46,2022-08-17 20:56:46,"0,002s",PASSED
+textoItemCompra = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 104.0.5112.81,,,2022-08-17 20:56:46,2022-08-17 20:56:46,"0,004s",PASSED
+textoPreCarro = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 104.0.5112.81,,,2022-08-17 20:56:46,2022-08-17 20:56:46,"0,003s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/div__dy-lb-close""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:56:46,2022-08-17 20:56:46,"0,352s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/button_Aceptar""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:56:46,2022-08-17 20:56:46,"0,340s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/img_banner_Envio_Gratis""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:56:46,2022-08-17 20:56:50,"3,945s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:56:50,2022-08-17 20:56:57,"7,021s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:56:57,2022-08-17 20:56:58,"0,388s",PASSED
+"Assert.assertEquals(textoPreCarro, textoItemCompra)",Chrome 104.0.5112.81,,,2022-08-17 20:56:58,2022-08-17 20:56:58,"0,008s",PASSED
+,,,,,,,
+Test Cases/inicioSesion/03 - AgregarAlCarro,Chrome 104.0.5112.81,,,2022-08-17 20:56:58,2022-08-17 20:56:59,"1,681s",PASSED
+Fecha = new java.util.Date(),Chrome 104.0.5112.81,,,2022-08-17 20:56:58,2022-08-17 20:56:58,"0,001s",PASSED
+"Dia = Fecha.format(""dd_MM_yy"")",Chrome 104.0.5112.81,,,2022-08-17 20:56:58,2022-08-17 20:56:58,"0,001s",PASSED
+"Hora = Fecha.format(""hh_mm_ss"")",Chrome 104.0.5112.81,,,2022-08-17 20:56:58,2022-08-17 20:56:58,"0,001s",PASSED
+robot = new java.awt.Robot(),Chrome 104.0.5112.81,,,2022-08-17 20:56:58,2022-08-17 20:56:58,"0,002s",PASSED
+subPopupPreCarro = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 104.0.5112.81,,,2022-08-17 20:56:58,2022-08-17 20:56:58,"0,001s",PASSED
+textoPreCarro = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 104.0.5112.81,,,2022-08-17 20:56:58,2022-08-17 20:56:58,"0,001s",PASSED
+"if (verifyElementPresent(findTestObject(""01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:56:58,2022-08-17 20:56:58,"0,123s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:56:58,2022-08-17 20:56:58,"0,156s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_Agregar al Carro""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:56:58,2022-08-17 20:56:59,"0,250s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:56:59,2022-08-17 20:56:59,"0,823s",PASSED
+"Assert.assertEquals(textoPreCarro, subPopupPreCarro)",Chrome 104.0.5112.81,,,2022-08-17 20:56:59,2022-08-17 20:56:59,"0,001s",PASSED
+,,,,,,,
+Test Cases/inicioSesion/04 - Revision carrito,Chrome 104.0.5112.81,,,2022-08-17 20:56:59,2022-08-17 20:57:07,"7,515s",PASSED
+Fecha = new java.util.Date(),Chrome 104.0.5112.81,,,2022-08-17 20:57:00,2022-08-17 20:57:00,"0,001s",PASSED
+"Dia = Fecha.format(""dd_MM_yy"")",Chrome 104.0.5112.81,,,2022-08-17 20:57:00,2022-08-17 20:57:00,"0,001s",PASSED
+"Hora = Fecha.format(""hh_mm_ss"")",Chrome 104.0.5112.81,,,2022-08-17 20:57:00,2022-08-17 20:57:00,"0,000s",PASSED
+robot = new java.awt.Robot(),Chrome 104.0.5112.81,,,2022-08-17 20:57:00,2022-08-17 20:57:00,"0,002s",PASSED
+NumArticuloPopUp = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 104.0.5112.81,,,2022-08-17 20:57:00,2022-08-17 20:57:00,"0,000s",PASSED
+NumArticuloCarrito = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 104.0.5112.81,,,2022-08-17 20:57:00,2022-08-17 20:57:00,"0,000s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProdPopUp""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:57:00,2022-08-17 20:57:00,"0,725s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_popup_Seguir comprando""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:57:00,2022-08-17 20:57:01,"0,503s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:57:01,2022-08-17 20:57:03,"2,262s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/04 - Revision carrito/Page_Revision carrito/i_CarroCompras""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:57:03,2022-08-17 20:57:06,"2,972s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProd_Carrito""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:57:06,2022-08-17 20:57:07,"0,684s",PASSED
+,,,,,,,
+Test Cases/inicioSesion/05 - Continuar con la compra,Chrome 104.0.5112.81,,,2022-08-17 20:57:07,2022-08-17 20:57:31,"24,365s",PASSED
+Fecha = new java.util.Date(),Chrome 104.0.5112.81,,,2022-08-17 20:57:07,2022-08-17 20:57:07,"0,001s",PASSED
+"Dia = Fecha.format(""dd_MM_yy"")",Chrome 104.0.5112.81,,,2022-08-17 20:57:07,2022-08-17 20:57:07,"0,000s",PASSED
+"Hora = Fecha.format(""hh_mm_ss"")",Chrome 104.0.5112.81,,,2022-08-17 20:57:07,2022-08-17 20:57:07,"0,001s",PASSED
+robot = new java.awt.Robot(),Chrome 104.0.5112.81,,,2022-08-17 20:57:07,2022-08-17 20:57:07,"0,000s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCompraCarrito""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:57:07,2022-08-17 20:57:10,"2,775s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Correo""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:57:10,2022-08-17 20:57:12,"1,599s",PASSED
+delay(3),Chrome 104.0.5112.81,,,2022-08-17 20:57:12,2022-08-17 20:57:15,"3,021s",PASSED
+"if (verifyElementPresent(findTestObject(""05 - Continuar con la compra/Page_Falabellacom/input_Popup_Calle""), 2, OPTIONAL))",Chrome 104.0.5112.81,,,2022-08-17 20:57:15,2022-08-17 20:57:21,"6,554s",PASSED
+delay(10),Chrome 104.0.5112.81,,,2022-08-17 20:57:21,2022-08-17 20:57:31,"10,010s",PASSED

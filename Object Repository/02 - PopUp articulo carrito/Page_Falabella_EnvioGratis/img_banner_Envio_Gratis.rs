@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_banner_Envio_Gratis</name>
+   <tag></tag>
+   <elementGuidId>d523cc93-b5e4-4c87-b256-45fb2935bd3a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = 'https://images.contentstack.io/v3/assets/blt7c5c2f2f888a7cc3/blt40894a6daea168cb/62f566f1e71af410b83c2995/crossbanner-normal-16990-mb.png' and @alt = '10 Cuotas sin interés']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='testId-transversalBanner']/div/div/a/picture/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://images.contentstack.io/v3/assets/blt7c5c2f2f888a7cc3/blt40894a6daea168cb/62f566f1e71af410b83c2995/crossbanner-normal-16990-mb.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>10 Cuotas sin interés</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;testId-transversalBanner&quot;)/div[1]/div[@class=&quot;fb-module-wrapper cross-site-banner&quot;]/a[1]/picture[1]/img[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='testId-transversalBanner']/div/div/a/picture/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='10 Cuotas sin interés']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//picture/img</value>
+   </webElementXpaths>
+</WebElementEntity>

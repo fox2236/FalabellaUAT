@@ -1,0 +1,2914 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-17T20:56:36</date>
+  <millis>1660780596796</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Suite FalabellaAUT</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Suite FalabellaAUT</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Suite FalabellaAUT</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:36</date>
+  <millis>1660780596812</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = FOX_PREDATOR - 192.168.1.184</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">FOX_PREDATOR - 192.168.1.184</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:36</date>
+  <millis>1660780596814</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:36</date>
+  <millis>1660780596814</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.184</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.184</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:36</date>
+  <millis>1660780596816</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.5.5.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.5.5.1</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:36</date>
+  <millis>1660780596821</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeExportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:36</date>
+  <millis>1660780596831</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>This Katalon Studio version has been deprecated. Please upgrade Katalon Studio to the latest version.</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:36</date>
+  <millis>1660780596831</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeExportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:37</date>
+  <millis>1660780597049</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/inicioSesion/01 - aperturaPagina</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/inicioSesion/01 - aperturaPagina</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/inicioSesion/01 - aperturaPagina</property>
+  <property name="source">D:\\ProyectosAUT\\Katalon\\FalabellaAUT\\FalabellaAUT\\Test Cases\\inicioSesion\\01 - aperturaPagina.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:37</date>
+  <millis>1660780597443</millis>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Fecha = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:37</date>
+  <millis>1660780597451</millis>
+  <sequence>13</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Fecha = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:37</date>
+  <millis>1660780597451</millis>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Dia = Fecha.format(\&amp;quot;dd_MM_yy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:37</date>
+  <millis>1660780597455</millis>
+  <sequence>15</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Dia = Fecha.format(\&amp;quot;dd_MM_yy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:37</date>
+  <millis>1660780597456</millis>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Hora = Fecha.format(\&amp;quot;hh_mm_ss\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:37</date>
+  <millis>1660780597474</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Hora = Fecha.format(\&amp;quot;hh_mm_ss\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:37</date>
+  <millis>1660780597477</millis>
+  <sequence>18</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : robot = new java.awt.Robot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:37</date>
+  <millis>1660780597702</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : robot = new java.awt.Robot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:37</date>
+  <millis>1660780597703</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:37</date>
+  <millis>1660780597911</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:37</date>
+  <millis>1660780597943</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:40</date>
+  <millis>1660780600440</millis>
+  <sequence>26</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 65f3de05a5bfd1b526d6543d599d2499</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">65f3de05a5bfd1b526d6543d599d2499</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:40</date>
+  <millis>1660780600462</millis>
+  <sequence>27</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 104.0.5112.81</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 104.0.5112.81</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:40</date>
+  <millis>1660780600462</millis>
+  <sequence>28</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:40</date>
+  <millis>1660780600462</millis>
+  <sequence>29</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:40</date>
+  <millis>1660780600463</millis>
+  <sequence>30</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&amp;quot;\&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:40</date>
+  <millis>1660780600490</millis>
+  <sequence>31</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:40</date>
+  <millis>1660780600490</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:40</date>
+  <millis>1660780600491</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://www.falabella.com/falabella-cl\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:44</date>
+  <millis>1660780604961</millis>
+  <sequence>36</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://www.falabella.com/falabella-cl&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:44</date>
+  <millis>1660780604961</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://www.falabella.com/falabella-cl\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:44</date>
+  <millis>1660780604962</millis>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:45</date>
+  <millis>1660780605330</millis>
+  <sequence>40</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:45</date>
+  <millis>1660780605331</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:45</date>
+  <millis>1660780605332</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:45</date>
+  <millis>1660780605530</millis>
+  <sequence>49</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:45</date>
+  <millis>1660780605531</millis>
+  <sequence>50</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(\&amp;quot;-&amp;gt; Apertura pagina Falabella OK\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:45</date>
+  <millis>1660780605555</millis>
+  <sequence>51</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(\&amp;quot;-&amp;gt; Apertura pagina Falabella OK\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:45</date>
+  <millis>1660780605556</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:45</date>
+  <millis>1660780605556</millis>
+  <sequence>53</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/inicioSesion/01 - aperturaPagina</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:45</date>
+  <millis>1660780605556</millis>
+  <sequence>54</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/inicioSesion/01 - aperturaPagina</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:45</date>
+  <millis>1660780605565</millis>
+  <sequence>55</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/inicioSesion/02 - PopUp articulo carrito</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/inicioSesion/02 - PopUp articulo carrito</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/inicioSesion/02 - PopUp articulo carrito</property>
+  <property name="source">D:\\ProyectosAUT\\Katalon\\FalabellaAUT\\FalabellaAUT\\Test Cases\\inicioSesion\\02 - PopUp articulo carrito.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606114</millis>
+  <sequence>57</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Fecha = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606114</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Fecha = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606115</millis>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Dia = Fecha.format(\&amp;quot;dd_MM_yy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606115</millis>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Dia = Fecha.format(\&amp;quot;dd_MM_yy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606115</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Hora = Fecha.format(\&amp;quot;hh_mm_ss\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606116</millis>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Hora = Fecha.format(\&amp;quot;hh_mm_ss\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606116</millis>
+  <sequence>63</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : robot = new java.awt.Robot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606118</millis>
+  <sequence>64</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : robot = new java.awt.Robot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606120</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : textoItemCompra = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606124</millis>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : textoItemCompra = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606125</millis>
+  <sequence>67</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : textoPreCarro = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606128</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : textoPreCarro = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606128</millis>
+  <sequence>69</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/div__dy-lb-close\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606242</millis>
+  <sequence>76</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/div__dy-lb-close&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606242</millis>
+  <sequence>77</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/div__dy-lb-close\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606479</millis>
+  <sequence>85</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/div__dy-lb-close&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606479</millis>
+  <sequence>86</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/div__dy-lb-close\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606480</millis>
+  <sequence>87</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/div__dy-lb-close\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606480</millis>
+  <sequence>88</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/button_Aceptar\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606647</millis>
+  <sequence>95</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/button_Aceptar&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606647</millis>
+  <sequence>96</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/button_Aceptar\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606815</millis>
+  <sequence>104</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/button_Aceptar&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606819</millis>
+  <sequence>105</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/button_Aceptar\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606820</millis>
+  <sequence>106</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/button_Aceptar\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606820</millis>
+  <sequence>107</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/img_banner_Envio_Gratis\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606903</millis>
+  <sequence>114</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/img_banner_Envio_Gratis&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:46</date>
+  <millis>1660780606904</millis>
+  <sequence>115</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/img_banner_Envio_Gratis\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:50</date>
+  <millis>1660780610765</millis>
+  <sequence>123</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/img_banner_Envio_Gratis&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:50</date>
+  <millis>1660780610765</millis>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/img_banner_Envio_Gratis\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:50</date>
+  <millis>1660780610765</millis>
+  <sequence>125</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/img_banner_Envio_Gratis\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:50</date>
+  <millis>1660780610765</millis>
+  <sequence>126</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:50</date>
+  <millis>1660780610920</millis>
+  <sequence>133</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:50</date>
+  <millis>1660780610921</millis>
+  <sequence>134</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : textoItemCompra = getText(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:51</date>
+  <millis>1660780611448</millis>
+  <sequence>142</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo&amp;apos; is: &amp;apos;GIORGIO ARMANI&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:51</date>
+  <millis>1660780611449</millis>
+  <sequence>143</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : textoItemCompra = getText(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:51</date>
+  <millis>1660780611449</millis>
+  <sequence>144</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(textoItemCompra)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">53</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:51</date>
+  <millis>1660780611450</millis>
+  <sequence>145</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(textoItemCompra)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:51</date>
+  <millis>1660780611450</millis>
+  <sequence>146</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:57</date>
+  <millis>1660780617785</millis>
+  <sequence>154</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:57</date>
+  <millis>1660780617786</millis>
+  <sequence>155</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:57</date>
+  <millis>1660780617786</millis>
+  <sequence>156</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:57</date>
+  <millis>1660780617786</millis>
+  <sequence>157</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">57</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618008</millis>
+  <sequence>164</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618009</millis>
+  <sequence>165</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : textoPreCarro = getText(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618173</millis>
+  <sequence>173</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI&amp;apos; is: &amp;apos;GIORGIO ARMANI&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618173</millis>
+  <sequence>174</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : textoPreCarro = getText(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618173</millis>
+  <sequence>175</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(textoPreCarro)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">61</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618174</millis>
+  <sequence>176</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(textoPreCarro)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618174</millis>
+  <sequence>177</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618174</millis>
+  <sequence>178</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertEquals(textoPreCarro, textoItemCompra)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618182</millis>
+  <sequence>179</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertEquals(textoPreCarro, textoItemCompra)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618182</millis>
+  <sequence>180</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/inicioSesion/02 - PopUp articulo carrito</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618182</millis>
+  <sequence>181</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/inicioSesion/02 - PopUp articulo carrito</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618186</millis>
+  <sequence>182</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/inicioSesion/03 - AgregarAlCarro</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/inicioSesion/03 - AgregarAlCarro</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/inicioSesion/03 - AgregarAlCarro</property>
+  <property name="source">D:\\ProyectosAUT\\Katalon\\FalabellaAUT\\FalabellaAUT\\Test Cases\\inicioSesion\\03 - AgregarAlCarro.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618506</millis>
+  <sequence>184</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Fecha = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618507</millis>
+  <sequence>185</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Fecha = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618507</millis>
+  <sequence>186</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Dia = Fecha.format(\&amp;quot;dd_MM_yy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618508</millis>
+  <sequence>187</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Dia = Fecha.format(\&amp;quot;dd_MM_yy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618508</millis>
+  <sequence>188</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Hora = Fecha.format(\&amp;quot;hh_mm_ss\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618509</millis>
+  <sequence>189</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Hora = Fecha.format(\&amp;quot;hh_mm_ss\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618509</millis>
+  <sequence>190</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : robot = new java.awt.Robot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618511</millis>
+  <sequence>191</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : robot = new java.awt.Robot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618511</millis>
+  <sequence>192</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : subPopupPreCarro = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618512</millis>
+  <sequence>193</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : subPopupPreCarro = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618512</millis>
+  <sequence>194</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : textoPreCarro = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618513</millis>
+  <sequence>195</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : textoPreCarro = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618513</millis>
+  <sequence>196</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618635</millis>
+  <sequence>203</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618636</millis>
+  <sequence>204</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(\&amp;quot;-&amp;gt; Apertura pagina Falabella OK\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618636</millis>
+  <sequence>205</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(\&amp;quot;-&amp;gt; Apertura pagina Falabella OK\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618636</millis>
+  <sequence>206</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618636</millis>
+  <sequence>207</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618715</millis>
+  <sequence>214</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618716</millis>
+  <sequence>215</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : textoPreCarro = getText(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618791</millis>
+  <sequence>223</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI&amp;apos; is: &amp;apos;GIORGIO ARMANI&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618791</millis>
+  <sequence>224</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : textoPreCarro = getText(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618792</millis>
+  <sequence>225</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(textoPreCarro)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618792</millis>
+  <sequence>226</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(textoPreCarro)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618792</millis>
+  <sequence>227</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618792</millis>
+  <sequence>228</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_Agregar al Carro\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618859</millis>
+  <sequence>235</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_Agregar al Carro&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:58</date>
+  <millis>1660780618859</millis>
+  <sequence>236</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_Agregar al Carro\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">53</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:59</date>
+  <millis>1660780619042</millis>
+  <sequence>244</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_Agregar al Carro&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:59</date>
+  <millis>1660780619042</millis>
+  <sequence>245</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_Agregar al Carro\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:59</date>
+  <millis>1660780619042</millis>
+  <sequence>246</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_Agregar al Carro\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:59</date>
+  <millis>1660780619043</millis>
+  <sequence>247</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:59</date>
+  <millis>1660780619718</millis>
+  <sequence>254</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:59</date>
+  <millis>1660780619719</millis>
+  <sequence>255</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : subPopupPreCarro = getText(findTestObject(\&amp;quot;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">58</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:59</date>
+  <millis>1660780619865</millis>
+  <sequence>263</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI&amp;apos; is: &amp;apos;GIORGIO ARMANI&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:59</date>
+  <millis>1660780619866</millis>
+  <sequence>264</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : subPopupPreCarro = getText(findTestObject(\&amp;quot;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:59</date>
+  <millis>1660780619866</millis>
+  <sequence>265</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(subPopupPreCarro)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:59</date>
+  <millis>1660780619866</millis>
+  <sequence>266</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(subPopupPreCarro)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:59</date>
+  <millis>1660780619866</millis>
+  <sequence>267</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:59</date>
+  <millis>1660780619866</millis>
+  <sequence>268</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Assert.assertEquals(textoPreCarro, subPopupPreCarro)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2022-08-17T20:56:59</date>
+  <millis>1660780619867</millis>
+  <sequence>269</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Assert.assertEquals(textoPreCarro, subPopupPreCarro)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:59</date>
+  <millis>1660780619867</millis>
+  <sequence>270</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/inicioSesion/03 - AgregarAlCarro</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:59</date>
+  <millis>1660780619867</millis>
+  <sequence>271</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/inicioSesion/03 - AgregarAlCarro</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:56:59</date>
+  <millis>1660780619870</millis>
+  <sequence>272</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/inicioSesion/04 - Revision carrito</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/inicioSesion/04 - Revision carrito</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/inicioSesion/04 - Revision carrito</property>
+  <property name="source">D:\\ProyectosAUT\\Katalon\\FalabellaAUT\\FalabellaAUT\\Test Cases\\inicioSesion\\04 - Revision carrito.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620233</millis>
+  <sequence>274</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Fecha = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620234</millis>
+  <sequence>275</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Fecha = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620234</millis>
+  <sequence>276</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Dia = Fecha.format(\&amp;quot;dd_MM_yy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620235</millis>
+  <sequence>277</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Dia = Fecha.format(\&amp;quot;dd_MM_yy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620236</millis>
+  <sequence>278</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Hora = Fecha.format(\&amp;quot;hh_mm_ss\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620236</millis>
+  <sequence>279</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Hora = Fecha.format(\&amp;quot;hh_mm_ss\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620236</millis>
+  <sequence>280</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : robot = new java.awt.Robot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620238</millis>
+  <sequence>281</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : robot = new java.awt.Robot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620238</millis>
+  <sequence>282</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : NumArticuloPopUp = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620238</millis>
+  <sequence>283</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : NumArticuloPopUp = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620239</millis>
+  <sequence>284</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : NumArticuloCarrito = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620239</millis>
+  <sequence>285</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : NumArticuloCarrito = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620239</millis>
+  <sequence>286</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProdPopUp\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620879</millis>
+  <sequence>293</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProdPopUp&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620880</millis>
+  <sequence>294</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : NumArticuloPopUp = getText(findTestObject(\&amp;quot;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620963</millis>
+  <sequence>302</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI&amp;apos; is: &amp;apos;GIORGIO ARMANI&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620963</millis>
+  <sequence>303</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : NumArticuloPopUp = getText(findTestObject(\&amp;quot;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620963</millis>
+  <sequence>304</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(NumArticuloPopUp)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620964</millis>
+  <sequence>305</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(NumArticuloPopUp)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620964</millis>
+  <sequence>306</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProdPopUp\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:00</date>
+  <millis>1660780620964</millis>
+  <sequence>307</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_popup_Seguir comprando\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:01</date>
+  <millis>1660780621038</millis>
+  <sequence>314</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_popup_Seguir comprando&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:01</date>
+  <millis>1660780621039</millis>
+  <sequence>315</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_popup_Seguir comprando\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:01</date>
+  <millis>1660780621466</millis>
+  <sequence>323</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_popup_Seguir comprando&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:01</date>
+  <millis>1660780621467</millis>
+  <sequence>324</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_popup_Seguir comprando\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:01</date>
+  <millis>1660780621467</millis>
+  <sequence>325</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_popup_Seguir comprando\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:01</date>
+  <millis>1660780621467</millis>
+  <sequence>326</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:01</date>
+  <millis>1660780621531</millis>
+  <sequence>333</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:01</date>
+  <millis>1660780621532</millis>
+  <sequence>334</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:03</date>
+  <millis>1660780623729</millis>
+  <sequence>342</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:03</date>
+  <millis>1660780623729</millis>
+  <sequence>343</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:03</date>
+  <millis>1660780623729</millis>
+  <sequence>344</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:03</date>
+  <millis>1660780623729</millis>
+  <sequence>345</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/04 - Revision carrito/Page_Revision carrito/i_CarroCompras\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:03</date>
+  <millis>1660780623820</millis>
+  <sequence>352</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/04 - Revision carrito/Page_Revision carrito/i_CarroCompras&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:03</date>
+  <millis>1660780623821</millis>
+  <sequence>353</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/04 - Revision carrito/Page_Revision carrito/i_CarroCompras\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">53</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:06</date>
+  <millis>1660780626700</millis>
+  <sequence>361</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/04 - Revision carrito/Page_Revision carrito/i_CarroCompras&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:06</date>
+  <millis>1660780626700</millis>
+  <sequence>362</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/04 - Revision carrito/Page_Revision carrito/i_CarroCompras\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:06</date>
+  <millis>1660780626701</millis>
+  <sequence>363</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/04 - Revision carrito/Page_Revision carrito/i_CarroCompras\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:06</date>
+  <millis>1660780626701</millis>
+  <sequence>364</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProd_Carrito\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">57</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:06</date>
+  <millis>1660780626779</millis>
+  <sequence>371</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProd_Carrito&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:06</date>
+  <millis>1660780626780</millis>
+  <sequence>372</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : NumArticuloCarrito = getText(findTestObject(\&amp;quot;Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProd_Carrito\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627383</millis>
+  <sequence>380</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProd_Carrito&amp;apos; is: &amp;apos;C\u00F3digo: 15245311&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627384</millis>
+  <sequence>381</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : NumArticuloCarrito = getText(findTestObject(\&amp;quot;Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProd_Carrito\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627384</millis>
+  <sequence>382</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(NumArticuloCarrito)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627384</millis>
+  <sequence>383</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(NumArticuloCarrito)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627385</millis>
+  <sequence>384</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProd_Carrito\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627385</millis>
+  <sequence>385</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/inicioSesion/04 - Revision carrito</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627385</millis>
+  <sequence>386</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/inicioSesion/04 - Revision carrito</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627388</millis>
+  <sequence>387</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/inicioSesion/05 - Continuar con la compra</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/inicioSesion/05 - Continuar con la compra</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/inicioSesion/05 - Continuar con la compra</property>
+  <property name="source">D:\\ProyectosAUT\\Katalon\\FalabellaAUT\\FalabellaAUT\\Test Cases\\inicioSesion\\05 - Continuar con la compra.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627790</millis>
+  <sequence>389</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Fecha = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627791</millis>
+  <sequence>390</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Fecha = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627791</millis>
+  <sequence>391</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Dia = Fecha.format(\&amp;quot;dd_MM_yy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627791</millis>
+  <sequence>392</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Dia = Fecha.format(\&amp;quot;dd_MM_yy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627791</millis>
+  <sequence>393</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Hora = Fecha.format(\&amp;quot;hh_mm_ss\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627792</millis>
+  <sequence>394</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Hora = Fecha.format(\&amp;quot;hh_mm_ss\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627792</millis>
+  <sequence>395</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : robot = new java.awt.Robot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627792</millis>
+  <sequence>396</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : robot = new java.awt.Robot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627792</millis>
+  <sequence>397</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCompraCarrito\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627851</millis>
+  <sequence>404</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCompraCarrito&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:07</date>
+  <millis>1660780627852</millis>
+  <sequence>405</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCompraCarrito\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:10</date>
+  <millis>1660780630566</millis>
+  <sequence>413</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCompraCarrito&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:10</date>
+  <millis>1660780630567</millis>
+  <sequence>414</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCompraCarrito\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:10</date>
+  <millis>1660780630567</millis>
+  <sequence>415</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCompraCarrito\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:10</date>
+  <millis>1660780630567</millis>
+  <sequence>416</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Correo\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:10</date>
+  <millis>1660780630670</millis>
+  <sequence>423</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Correo&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:10</date>
+  <millis>1660780630671</millis>
+  <sequence>424</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Correo\&amp;quot;), \&amp;quot;aa@bb.cc\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:10</date>
+  <millis>1660780630880</millis>
+  <sequence>438</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;aa@bb.cc&amp;apos; is set on object &amp;apos;Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Correo&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:10</date>
+  <millis>1660780630881</millis>
+  <sequence>439</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Correo\&amp;quot;), \&amp;quot;aa@bb.cc\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:10</date>
+  <millis>1660780630881</millis>
+  <sequence>440</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCorreo\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:12</date>
+  <millis>1660780632166</millis>
+  <sequence>448</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCorreo&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:12</date>
+  <millis>1660780632166</millis>
+  <sequence>449</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCorreo\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:12</date>
+  <millis>1660780632166</millis>
+  <sequence>450</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Correo\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:12</date>
+  <millis>1660780632167</millis>
+  <sequence>451</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:15</date>
+  <millis>1660780635187</millis>
+  <sequence>453</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:15</date>
+  <millis>1660780635188</millis>
+  <sequence>454</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:15</date>
+  <millis>1660780635189</millis>
+  <sequence>455</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;05 - Continuar con la compra/Page_Falabellacom/input_Popup_Calle\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:15</date>
+  <millis>1660780635294</millis>
+  <sequence>462</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Popup_Calle&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:15</date>
+  <millis>1660780635295</millis>
+  <sequence>463</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;05 - Continuar con la compra/Page_Falabellacom/input_Popup_Calle\&amp;quot;), \&amp;quot;calle central 123, maipu\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:15</date>
+  <millis>1660780635633</millis>
+  <sequence>477</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;calle central 123, maipu&amp;apos; is set on object &amp;apos;Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Popup_Calle&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:15</date>
+  <millis>1660780635633</millis>
+  <sequence>478</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;05 - Continuar con la compra/Page_Falabellacom/input_Popup_Calle\&amp;quot;), \&amp;quot;calle central 123, maipu\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:15</date>
+  <millis>1660780635633</millis>
+  <sequence>479</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:20</date>
+  <millis>1660780640646</millis>
+  <sequence>481</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:20</date>
+  <millis>1660780640646</millis>
+  <sequence>482</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:20</date>
+  <millis>1660780640646</millis>
+  <sequence>483</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_Boton_seleccionAutomaticaCalle\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:20</date>
+  <millis>1660780640784</millis>
+  <sequence>491</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_Boton_seleccionAutomaticaCalle&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:20</date>
+  <millis>1660780640785</millis>
+  <sequence>492</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_Boton_seleccionAutomaticaCalle\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:20</date>
+  <millis>1660780640785</millis>
+  <sequence>493</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Popup_Dpto_Casa_Oficina\&amp;quot;), \&amp;quot;Casa\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">53</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:20</date>
+  <millis>1660780640960</millis>
+  <sequence>507</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Casa&amp;apos; is set on object &amp;apos;Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Popup_Dpto_Casa_Oficina&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:20</date>
+  <millis>1660780640961</millis>
+  <sequence>508</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Popup_Dpto_Casa_Oficina\&amp;quot;), \&amp;quot;Casa\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:20</date>
+  <millis>1660780640961</millis>
+  <sequence>509</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_Confirmar y Guardar\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:21</date>
+  <millis>1660780641742</millis>
+  <sequence>517</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_Confirmar y Guardar&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:21</date>
+  <millis>1660780641743</millis>
+  <sequence>518</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_Confirmar y Guardar\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:21</date>
+  <millis>1660780641743</millis>
+  <sequence>519</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;05 - Continuar con la compra/Page_Falabellacom/input_Popup_Calle\&amp;quot;), 2, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:21</date>
+  <millis>1660780641743</millis>
+  <sequence>520</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">58</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2022-08-17T20:57:31</date>
+  <millis>1660780651753</millis>
+  <sequence>522</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 10 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:31</date>
+  <millis>1660780651753</millis>
+  <sequence>523</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:31</date>
+  <millis>1660780651753</millis>
+  <sequence>524</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/inicioSesion/05 - Continuar con la compra</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:31</date>
+  <millis>1660780651753</millis>
+  <sequence>525</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/inicioSesion/05 - Continuar con la compra</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:31</date>
+  <millis>1660780651754</millis>
+  <sequence>526</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:31</date>
+  <millis>1660780651754</millis>
+  <sequence>528</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>This Katalon Studio version has been deprecated. Please upgrade Katalon Studio to the latest version.</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:31</date>
+  <millis>1660780651881</millis>
+  <sequence>1007</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: D:\\ProyectosAUT\\Katalon\\FalabellaAUT\\FalabellaAUT\\Reports\\20220817_205631\\Suite FalabellaAUT\\20220817_205631...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:31</date>
+  <millis>1660780651894</millis>
+  <sequence>1008</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:31</date>
+  <millis>1660780651894</millis>
+  <sequence>1009</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: D:\\ProyectosAUT\\Katalon\\FalabellaAUT\\FalabellaAUT\\Reports\\20220817_205631\\Suite FalabellaAUT\\20220817_205631...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:31</date>
+  <millis>1660780651916</millis>
+  <sequence>1010</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:31</date>
+  <millis>1660780651916</millis>
+  <sequence>1011</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating JUnit report folder at: D:\\ProyectosAUT\\Katalon\\FalabellaAUT\\FalabellaAUT\\Reports\\20220817_205631\\Suite FalabellaAUT\\20220817_205631...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:32</date>
+  <millis>1660780652137</millis>
+  <sequence>1012</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>JUnit report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2022-08-17T20:57:32</date>
+  <millis>1660780652137</millis>
+  <sequence>1014</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

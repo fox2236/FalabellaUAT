@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Suite FalabellaAUT" time="54" tests="5" failures="0" errors="0">
+    <testsuite name="Suite FalabellaAUT" tests="5" failures="0" errors="0" time="54" timestamp="2022-08-17 20:56:36" hostname="FOX_PREDATOR - 192.168.1.184" id="Test Suites/Suite FalabellaAUT">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="D:\\ProyectosAUT\\Katalon\\FalabellaAUT\\FalabellaAUT\\Reports\\20220817_205631\\Suite FalabellaAUT\\20220817_205631"/>
+            <property name="logFiles" value="D:\\ProyectosAUT\\Katalon\\FalabellaAUT\\FalabellaAUT\\Reports\\20220817_205631\\Suite FalabellaAUT\\20220817_205631\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="FOX_PREDATOR - 192.168.1.184"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="7.5.5.1"/>
+            <property name="browser" value="Chrome 104.0.5112.81"/>
+            <property name="hostAddress" value="192.168.1.184"/>
+            <property name="sessionId" value="65f3de05a5bfd1b526d6543d599d2499"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/inicioSesion/01 - aperturaPagina" classname="Test Cases/inicioSesion/01 - aperturaPagina" status="PASSED">
+            <system-out>2022-08-17 20:56:37 - [TEST_CASE][PASSED] - Test Cases/inicioSesion/01 - aperturaPagina: Test Cases/inicioSesion/01 - aperturaPagina&#xD;
+&#xD;
+2022-08-17 20:56:37 - [TEST_STEP][PASSED] - Fecha = new java.util.Date(): null&#xD;
+&#xD;
+2022-08-17 20:56:37 - [TEST_STEP][PASSED] - Dia = Fecha.format("dd_MM_yy"): null&#xD;
+&#xD;
+2022-08-17 20:56:37 - [TEST_STEP][PASSED] - Hora = Fecha.format("hh_mm_ss"): null&#xD;
+&#xD;
+2022-08-17 20:56:37 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null&#xD;
+&#xD;
+2022-08-17 20:56:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2022-08-17 20:56:37 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2022-08-17 20:56:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds&#xD;
+&#xD;
+2022-08-17 20:56:40 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2022-08-17 20:56:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.falabella.com/falabella-cl"): Navigate to 'https://www.falabella.com/falabella-cl' successfully&#xD;
+&#xD;
+2022-08-17 20:56:44 - [MESSAGE][PASSED] - Navigate to 'https://www.falabella.com/falabella-cl' successfully&#xD;
+&#xD;
+2022-08-17 20:56:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2022-08-17 20:56:45 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2022-08-17 20:56:45 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella"), 2, OPTIONAL)): null&#xD;
+&#xD;
+2022-08-17 20:56:45 - [MESSAGE][PASSED] - Object 'Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella' is present&#xD;
+&#xD;
+2022-08-17 20:56:45 - [TEST_STEP][PASSED] - out.println("-&gt; Apertura pagina Falabella OK"): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/inicioSesion/02 - PopUp articulo carrito" classname="Test Cases/inicioSesion/02 - PopUp articulo carrito" status="PASSED">
+            <system-out>2022-08-17 20:56:45 - [TEST_CASE][PASSED] - Test Cases/inicioSesion/02 - PopUp articulo carrito: Test Cases/inicioSesion/02 - PopUp articulo carrito&#xD;
+&#xD;
+2022-08-17 20:56:46 - [TEST_STEP][PASSED] - Fecha = new java.util.Date(): null&#xD;
+&#xD;
+2022-08-17 20:56:46 - [TEST_STEP][PASSED] - Dia = Fecha.format("dd_MM_yy"): null&#xD;
+&#xD;
+2022-08-17 20:56:46 - [TEST_STEP][PASSED] - Hora = Fecha.format("hh_mm_ss"): null&#xD;
+&#xD;
+2022-08-17 20:56:46 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null&#xD;
+&#xD;
+2022-08-17 20:56:46 - [TEST_STEP][PASSED] - textoItemCompra = &lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&gt;: null&#xD;
+&#xD;
+2022-08-17 20:56:46 - [TEST_STEP][PASSED] - textoPreCarro = &lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&gt;: null&#xD;
+&#xD;
+2022-08-17 20:56:46 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/div__dy-lb-close"), 2, OPTIONAL)): Object: 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/div__dy-lb-close' is clicked on&#xD;
+&#xD;
+2022-08-17 20:56:46 - [MESSAGE][PASSED] - Object 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/div__dy-lb-close' is present&#xD;
+&#xD;
+2022-08-17 20:56:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/div__dy-lb-close")): Object: 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/div__dy-lb-close' is clicked on&#xD;
+&#xD;
+2022-08-17 20:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/div__dy-lb-close' is clicked on&#xD;
+&#xD;
+2022-08-17 20:56:46 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/button_Aceptar"), 2, OPTIONAL)): Object: 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/button_Aceptar' is clicked on&#xD;
+&#xD;
+2022-08-17 20:56:46 - [MESSAGE][PASSED] - Object 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/button_Aceptar' is present&#xD;
+&#xD;
+2022-08-17 20:56:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/button_Aceptar")): Object: 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/button_Aceptar' is clicked on&#xD;
+&#xD;
+2022-08-17 20:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/button_Aceptar' is clicked on&#xD;
+&#xD;
+2022-08-17 20:56:46 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/img_banner_Envio_Gratis"), 2, OPTIONAL)): Object: 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/img_banner_Envio_Gratis' is clicked on&#xD;
+&#xD;
+2022-08-17 20:56:46 - [MESSAGE][PASSED] - Object 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/img_banner_Envio_Gratis' is present&#xD;
+&#xD;
+2022-08-17 20:56:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/img_banner_Envio_Gratis")): Object: 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/img_banner_Envio_Gratis' is clicked on&#xD;
+&#xD;
+2022-08-17 20:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/img_banner_Envio_Gratis' is clicked on&#xD;
+&#xD;
+2022-08-17 20:56:50 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo"), 2, OPTIONAL)): Object: 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo' is clicked on&#xD;
+&#xD;
+2022-08-17 20:56:50 - [MESSAGE][PASSED] - Object 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo' is present&#xD;
+&#xD;
+2022-08-17 20:56:50 - [TEST_STEP][PASSED] - textoItemCompra = getText(findTestObject("Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo")): Text of object 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo' is: 'GIORGIO ARMANI'&#xD;
+&#xD;
+2022-08-17 20:56:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo' is: 'GIORGIO ARMANI'&#xD;
+&#xD;
+2022-08-17 20:56:51 - [TEST_STEP][PASSED] - out.println(textoItemCompra): null&#xD;
+&#xD;
+2022-08-17 20:56:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo")): Object: 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo' is clicked on&#xD;
+&#xD;
+2022-08-17 20:56:57 - [MESSAGE][PASSED] - Object: 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo' is clicked on&#xD;
+&#xD;
+2022-08-17 20:56:57 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI"), 2, OPTIONAL)): null&#xD;
+&#xD;
+2022-08-17 20:56:58 - [MESSAGE][PASSED] - Object 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI' is present&#xD;
+&#xD;
+2022-08-17 20:56:58 - [TEST_STEP][PASSED] - textoPreCarro = getText(findTestObject("Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI")): Text of object 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI' is: 'GIORGIO ARMANI'&#xD;
+&#xD;
+2022-08-17 20:56:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI' is: 'GIORGIO ARMANI'&#xD;
+&#xD;
+2022-08-17 20:56:58 - [TEST_STEP][PASSED] - out.println(textoPreCarro): null&#xD;
+&#xD;
+2022-08-17 20:56:58 - [TEST_STEP][PASSED] - Assert.assertEquals(textoPreCarro, textoItemCompra): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/inicioSesion/03 - AgregarAlCarro" classname="Test Cases/inicioSesion/03 - AgregarAlCarro" status="PASSED">
+            <system-out>2022-08-17 20:56:58 - [TEST_CASE][PASSED] - Test Cases/inicioSesion/03 - AgregarAlCarro: Test Cases/inicioSesion/03 - AgregarAlCarro&#xD;
+&#xD;
+2022-08-17 20:56:58 - [TEST_STEP][PASSED] - Fecha = new java.util.Date(): null&#xD;
+&#xD;
+2022-08-17 20:56:58 - [TEST_STEP][PASSED] - Dia = Fecha.format("dd_MM_yy"): null&#xD;
+&#xD;
+2022-08-17 20:56:58 - [TEST_STEP][PASSED] - Hora = Fecha.format("hh_mm_ss"): null&#xD;
+&#xD;
+2022-08-17 20:56:58 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null&#xD;
+&#xD;
+2022-08-17 20:56:58 - [TEST_STEP][PASSED] - subPopupPreCarro = &lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&gt;: null&#xD;
+&#xD;
+2022-08-17 20:56:58 - [TEST_STEP][PASSED] - textoPreCarro = &lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&gt;: null&#xD;
+&#xD;
+2022-08-17 20:56:58 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella"), 2, OPTIONAL)): null&#xD;
+&#xD;
+2022-08-17 20:56:58 - [MESSAGE][PASSED] - Object 'Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella' is present&#xD;
+&#xD;
+2022-08-17 20:56:58 - [TEST_STEP][PASSED] - out.println("-&gt; Apertura pagina Falabella OK"): null&#xD;
+&#xD;
+2022-08-17 20:56:58 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI"), 2, OPTIONAL)): null&#xD;
+&#xD;
+2022-08-17 20:56:58 - [MESSAGE][PASSED] - Object 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI' is present&#xD;
+&#xD;
+2022-08-17 20:56:58 - [TEST_STEP][PASSED] - textoPreCarro = getText(findTestObject("Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI")): Text of object 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI' is: 'GIORGIO ARMANI'&#xD;
+&#xD;
+2022-08-17 20:56:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI' is: 'GIORGIO ARMANI'&#xD;
+&#xD;
+2022-08-17 20:56:58 - [TEST_STEP][PASSED] - out.println(textoPreCarro): null&#xD;
+&#xD;
+2022-08-17 20:56:58 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_Agregar al Carro"), 2, OPTIONAL)): Object: 'Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_Agregar al Carro' is clicked on&#xD;
+&#xD;
+2022-08-17 20:56:58 - [MESSAGE][PASSED] - Object 'Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_Agregar al Carro' is present&#xD;
+&#xD;
+2022-08-17 20:56:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_Agregar al Carro")): Object: 'Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_Agregar al Carro' is clicked on&#xD;
+&#xD;
+2022-08-17 20:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_Agregar al Carro' is clicked on&#xD;
+&#xD;
+2022-08-17 20:56:59 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI"), 2, OPTIONAL)): null&#xD;
+&#xD;
+2022-08-17 20:56:59 - [MESSAGE][PASSED] - Object 'Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI' is present&#xD;
+&#xD;
+2022-08-17 20:56:59 - [TEST_STEP][PASSED] - subPopupPreCarro = getText(findTestObject("Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI")): Text of object 'Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI' is: 'GIORGIO ARMANI'&#xD;
+&#xD;
+2022-08-17 20:56:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI' is: 'GIORGIO ARMANI'&#xD;
+&#xD;
+2022-08-17 20:56:59 - [TEST_STEP][PASSED] - out.println(subPopupPreCarro): null&#xD;
+&#xD;
+2022-08-17 20:56:59 - [TEST_STEP][PASSED] - Assert.assertEquals(textoPreCarro, subPopupPreCarro): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/inicioSesion/04 - Revision carrito" classname="Test Cases/inicioSesion/04 - Revision carrito" status="PASSED">
+            <system-out>2022-08-17 20:56:59 - [TEST_CASE][PASSED] - Test Cases/inicioSesion/04 - Revision carrito: Test Cases/inicioSesion/04 - Revision carrito&#xD;
+&#xD;
+2022-08-17 20:57:00 - [TEST_STEP][PASSED] - Fecha = new java.util.Date(): null&#xD;
+&#xD;
+2022-08-17 20:57:00 - [TEST_STEP][PASSED] - Dia = Fecha.format("dd_MM_yy"): null&#xD;
+&#xD;
+2022-08-17 20:57:00 - [TEST_STEP][PASSED] - Hora = Fecha.format("hh_mm_ss"): null&#xD;
+&#xD;
+2022-08-17 20:57:00 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null&#xD;
+&#xD;
+2022-08-17 20:57:00 - [TEST_STEP][PASSED] - NumArticuloPopUp = &lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&gt;: null&#xD;
+&#xD;
+2022-08-17 20:57:00 - [TEST_STEP][PASSED] - NumArticuloCarrito = &lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&gt;: null&#xD;
+&#xD;
+2022-08-17 20:57:00 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProdPopUp"), 2, OPTIONAL)): null&#xD;
+&#xD;
+2022-08-17 20:57:00 - [MESSAGE][PASSED] - Object 'Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProdPopUp' is present&#xD;
+&#xD;
+2022-08-17 20:57:00 - [TEST_STEP][PASSED] - NumArticuloPopUp = getText(findTestObject("Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI")): Text of object 'Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI' is: 'GIORGIO ARMANI'&#xD;
+&#xD;
+2022-08-17 20:57:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI' is: 'GIORGIO ARMANI'&#xD;
+&#xD;
+2022-08-17 20:57:00 - [TEST_STEP][PASSED] - out.println(NumArticuloPopUp): null&#xD;
+&#xD;
+2022-08-17 20:57:00 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_popup_Seguir comprando"), 2, OPTIONAL)): Object: 'Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_popup_Seguir comprando' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:01 - [MESSAGE][PASSED] - Object 'Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_popup_Seguir comprando' is present&#xD;
+&#xD;
+2022-08-17 20:57:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_popup_Seguir comprando")): Object: 'Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_popup_Seguir comprando' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:01 - [MESSAGE][PASSED] - Object: 'Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_popup_Seguir comprando' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:01 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella"), 2, OPTIONAL)): Object: 'Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:01 - [MESSAGE][PASSED] - Object 'Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella' is present&#xD;
+&#xD;
+2022-08-17 20:57:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella")): Object: 'Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:03 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/04 - Revision carrito/Page_Revision carrito/i_CarroCompras"), 2, OPTIONAL)): Object: 'Object Repository/04 - Revision carrito/Page_Revision carrito/i_CarroCompras' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:03 - [MESSAGE][PASSED] - Object 'Object Repository/04 - Revision carrito/Page_Revision carrito/i_CarroCompras' is present&#xD;
+&#xD;
+2022-08-17 20:57:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/04 - Revision carrito/Page_Revision carrito/i_CarroCompras")): Object: 'Object Repository/04 - Revision carrito/Page_Revision carrito/i_CarroCompras' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/04 - Revision carrito/Page_Revision carrito/i_CarroCompras' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:06 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProd_Carrito"), 2, OPTIONAL)): null&#xD;
+&#xD;
+2022-08-17 20:57:06 - [MESSAGE][PASSED] - Object 'Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProd_Carrito' is present&#xD;
+&#xD;
+2022-08-17 20:57:06 - [TEST_STEP][PASSED] - NumArticuloCarrito = getText(findTestObject("Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProd_Carrito")): Text of object 'Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProd_Carrito' is: 'Código: 15245311'&#xD;
+&#xD;
+2022-08-17 20:57:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProd_Carrito' is: 'Código: 15245311'&#xD;
+&#xD;
+2022-08-17 20:57:07 - [TEST_STEP][PASSED] - out.println(NumArticuloCarrito): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/inicioSesion/05 - Continuar con la compra" classname="Test Cases/inicioSesion/05 - Continuar con la compra" status="PASSED">
+            <system-out>2022-08-17 20:57:07 - [TEST_CASE][PASSED] - Test Cases/inicioSesion/05 - Continuar con la compra: Test Cases/inicioSesion/05 - Continuar con la compra&#xD;
+&#xD;
+2022-08-17 20:57:07 - [TEST_STEP][PASSED] - Fecha = new java.util.Date(): null&#xD;
+&#xD;
+2022-08-17 20:57:07 - [TEST_STEP][PASSED] - Dia = Fecha.format("dd_MM_yy"): null&#xD;
+&#xD;
+2022-08-17 20:57:07 - [TEST_STEP][PASSED] - Hora = Fecha.format("hh_mm_ss"): null&#xD;
+&#xD;
+2022-08-17 20:57:07 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null&#xD;
+&#xD;
+2022-08-17 20:57:07 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCompraCarrito"), 2, OPTIONAL)): Object: 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCompraCarrito' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:07 - [MESSAGE][PASSED] - Object 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCompraCarrito' is present&#xD;
+&#xD;
+2022-08-17 20:57:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCompraCarrito")): Object: 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCompraCarrito' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:10 - [MESSAGE][PASSED] - Object: 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCompraCarrito' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:10 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Correo"), 2, OPTIONAL)): Object: 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCorreo' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:10 - [MESSAGE][PASSED] - Object 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Correo' is present&#xD;
+&#xD;
+2022-08-17 20:57:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Correo"), "aa@bb.cc"): Text 'aa@bb.cc' is set on object 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Correo'&#xD;
+&#xD;
+2022-08-17 20:57:10 - [MESSAGE][PASSED] - Text 'aa@bb.cc' is set on object 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Correo'&#xD;
+&#xD;
+2022-08-17 20:57:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCorreo")): Object: 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCorreo' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCorreo' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)&#xD;
+&#xD;
+2022-08-17 20:57:15 - [MESSAGE][PASSED] - Delayed 3 second(s)&#xD;
+&#xD;
+2022-08-17 20:57:15 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("05 - Continuar con la compra/Page_Falabellacom/input_Popup_Calle"), 2, OPTIONAL)): Object: 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_Confirmar y Guardar' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:15 - [MESSAGE][PASSED] - Object 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Popup_Calle' is present&#xD;
+&#xD;
+2022-08-17 20:57:15 - [TEST_STEP][PASSED] - setText(findTestObject("05 - Continuar con la compra/Page_Falabellacom/input_Popup_Calle"), "calle central 123, maipu"): Text 'calle central 123, maipu' is set on object 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Popup_Calle'&#xD;
+&#xD;
+2022-08-17 20:57:15 - [MESSAGE][PASSED] - Text 'calle central 123, maipu' is set on object 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Popup_Calle'&#xD;
+&#xD;
+2022-08-17 20:57:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)&#xD;
+&#xD;
+2022-08-17 20:57:20 - [MESSAGE][PASSED] - Delayed 5 second(s)&#xD;
+&#xD;
+2022-08-17 20:57:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_Boton_seleccionAutomaticaCalle")): Object: 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_Boton_seleccionAutomaticaCalle' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_Boton_seleccionAutomaticaCalle' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Popup_Dpto_Casa_Oficina"), "Casa"): Text 'Casa' is set on object 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Popup_Dpto_Casa_Oficina'&#xD;
+&#xD;
+2022-08-17 20:57:20 - [MESSAGE][PASSED] - Text 'Casa' is set on object 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Popup_Dpto_Casa_Oficina'&#xD;
+&#xD;
+2022-08-17 20:57:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_Confirmar y Guardar")): Object: 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_Confirmar y Guardar' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_Confirmar y Guardar' is clicked on&#xD;
+&#xD;
+2022-08-17 20:57:21 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)&#xD;
+&#xD;
+2022-08-17 20:57:31 - [MESSAGE][PASSED] - Delayed 10 second(s)</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2022-08-17 20:56:36 - [TEST_SUITE][INCOMPLETE] - Suite FalabellaAUT: null</system-out>
+        <system-err>2022-08-17 20:56:36 - [TEST_SUITE][INCOMPLETE] - Suite FalabellaAUT: null</system-err>
+    </testsuite>
+</testsuites>
