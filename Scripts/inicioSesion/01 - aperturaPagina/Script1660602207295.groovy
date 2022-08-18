@@ -29,7 +29,7 @@ String Hora = Fecha.format('hh_mm_ss')
 
 Robot robot = new Robot()
 
-WebUI.openBrowser('Chrome')
+WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.falabella.com/falabella-cl')
 
@@ -40,11 +40,9 @@ if (WebUI.verifyElementPresent(findTestObject('01 - Login/Page_falabellacom  Tod
     System.out.println('-> Apertura pagina Falabella OK')
 } else {
     WebUI.delay(1)
-
     System.out.println('-> La Pagina no se ha cargado o Logo falabella fue modificado')
-
     WebUI.takeScreenshot(((('D:\\ProyectosAUT\\Katalon\\FalabellaAUT\\FalabellaAUT\\ScreenShot\\Portal no ha encontrado elemento Logo falabella en la apertura' + 
-        Dia) + '-') + Hora) + '.png')
+    Dia) + '-') + Hora) + '.png')
 }
 
 //Assert.assertEquals();

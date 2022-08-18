@@ -42,26 +42,25 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/02 - PopUp arti
 }
 
 
-	if (WebUI.verifyElementPresent(findTestObject('Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/img_banner_Envio_Gratis'),
-		2, FailureHandling.OPTIONAL)) {
-		WebUI.click(findTestObject('Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/img_banner_Envio_Gratis'))
-	}
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/img_banner_Envio_Gratis'),
+	2, FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/img_banner_Envio_Gratis'))
+}
 	
-		if (WebUI.verifyElementPresent(findTestObject('Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo'),
-			2, FailureHandling.OPTIONAL)) {
-		textoItemCompra = WebUI.getText(findTestObject('Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo'))
-		System.out.println(textoItemCompra)
-				WebUI.click(findTestObject('Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo'))
-		}
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo'),
+	2, FailureHandling.OPTIONAL)) {
+	textoItemCompra = WebUI.getText(findTestObject('Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo'))
+	System.out.println(textoItemCompra)
+	WebUI.click(findTestObject('Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo'))
+}
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI'),
-				2, FailureHandling.OPTIONAL)) {
-				//WebUI.click(findTestObject('Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/b_SubText_1er_subtitulo'))
-			textoPreCarro = WebUI.getText(findTestObject('Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI'))
-			System.out.println(textoPreCarro)
-			}
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI'),
+	2, FailureHandling.OPTIONAL)) {
+	textoPreCarro = WebUI.getText(findTestObject('Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI'))
+	System.out.println(textoPreCarro)
+}
 				
-			Assert.assertEquals(textoPreCarro,textoItemCompra);
+	Assert.assertEquals(textoPreCarro,textoItemCompra);
 
 
 				

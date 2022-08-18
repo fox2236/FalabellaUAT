@@ -34,11 +34,11 @@ String textoPreCarro
 if (WebUI.verifyElementPresent(findTestObject('01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella'),
 	2, FailureHandling.OPTIONAL)) {
 	System.out.println('-> Apertura pagina Falabella OK')
-} else {
+}else {
 	WebUI.delay(1)
 	System.out.println('-> La Pagina no se ha cargado o Logo falabella fue modificado')
 	WebUI.takeScreenshot(((('D:\\ProyectosAUT\\Katalon\\FalabellaAUT\\FalabellaAUT\\ScreenShot\\Portal no ha encontrado elemento Logo falabella en la apertura' +
-		Dia) + '-') + Hora) + '.png')
+	Dia) + '-') + Hora) + '.png')
 }
 
 
@@ -46,20 +46,20 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/02 - PopUp arti
 	2, FailureHandling.OPTIONAL)) {
 	textoPreCarro = WebUI.getText(findTestObject('Object Repository/02 - PopUp articulo carrito/Page_Falabella_EnvioGratis/a_GIORGIO ARMANI'))
 	System.out.println(textoPreCarro)
-	}
+}
 
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_Agregar al Carro'),
 	2, FailureHandling.OPTIONAL)) {
 	WebUI.click(findTestObject('Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_Agregar al Carro'))
 }
 	
-	if (WebUI.verifyElementPresent(findTestObject('Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI'),
-		2, FailureHandling.OPTIONAL)) {
-		subPopupPreCarro = WebUI.getText(findTestObject('Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI'))
-		System.out.println(subPopupPreCarro)
-		}
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI'),
+	2, FailureHandling.OPTIONAL)) {
+	subPopupPreCarro = WebUI.getText(findTestObject('Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/span_Popup_GIORGIO ARMANI'))
+	System.out.println(subPopupPreCarro)
+}
 	
-		Assert.assertEquals(textoPreCarro,subPopupPreCarro);
+	Assert.assertEquals(textoPreCarro,subPopupPreCarro);
 	
 	
 		

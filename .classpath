@@ -144,6 +144,5 @@
 	<classpathentry kind="lib" path="D:/Desarrollo - Development/Katalon Studio/Katalon_Studio_Windows_64-7.5.5/configuration/plugin/install/31832/1.0.8/katalon-studio-basic-report-plugin.jar"/>
 	<classpathentry kind="lib" path="D:/Desarrollo - Development/Katalon Studio/Katalon_Studio_Windows_64-7.5.5/configuration/plugin/install/38261/1.0.2/ExcelKeywords.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
-	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

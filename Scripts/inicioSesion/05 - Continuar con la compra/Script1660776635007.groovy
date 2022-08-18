@@ -33,27 +33,25 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/05 - Continuar 
 	WebUI.click(findTestObject('Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCompraCarrito'))
 	}
 	
-	
-	if (WebUI.verifyElementPresent(findTestObject('Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Correo'),
-		2, FailureHandling.OPTIONAL)) {
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Correo'),
+	2, FailureHandling.OPTIONAL)) {
 	
 	WebUI.setText(findTestObject('Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Correo'), "aa@bb.cc")
 	WebUI.click(findTestObject('Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_ContinuarCorreo'))
 		
-		}
+	}
 		
-		WebUI.delay(3)
+	WebUI.delay(3)
 		
 	
-		if (WebUI.verifyElementPresent(findTestObject('05 - Continuar con la compra/Page_Falabellacom/input_Popup_Calle'),
-			2, FailureHandling.OPTIONAL)) {
-			WebUI.setText(findTestObject('05 - Continuar con la compra/Page_Falabellacom/input_Popup_Calle'), "calle central 123, maipu")
-			WebUI.delay(5)
-			WebUI.click(findTestObject('Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_Boton_seleccionAutomaticaCalle'))
-			WebUI.setText(findTestObject('Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Popup_Dpto_Casa_Oficina'), "Casa")
-			WebUI.click(findTestObject('Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_Confirmar y Guardar'))
-			
-			}
+if (WebUI.verifyElementPresent(findTestObject('05 - Continuar con la compra/Page_Falabellacom/input_Popup_Calle'),
+	2, FailureHandling.OPTIONAL)) {
+	WebUI.setText(findTestObject('05 - Continuar con la compra/Page_Falabellacom/input_Popup_Calle'), "calle central 123, maipu")
+	WebUI.delay(5)
+	WebUI.click(findTestObject('Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_Boton_seleccionAutomaticaCalle'))
+	WebUI.setText(findTestObject('Object Repository/05 - Continuar con la compra/Page_Falabellacom/input_Popup_Dpto_Casa_Oficina'), "Casa")
+	WebUI.click(findTestObject('Object Repository/05 - Continuar con la compra/Page_Falabellacom/button_Confirmar y Guardar'))
+}
 			
 			
 			

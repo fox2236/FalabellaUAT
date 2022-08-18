@@ -40,23 +40,22 @@ System.out.println(NumArticuloPopUp)
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_popup_Seguir comprando'),
 	2, FailureHandling.OPTIONAL)) {
 	WebUI.click(findTestObject('Object Repository/03 - AgregarAlCarro/Page_popup_agregar_carro/button_popup_Seguir comprando'))
+}
 	
-	}
-	
-	if (WebUI.verifyElementPresent(findTestObject('Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella'),
-		2, FailureHandling.OPTIONAL)) {
-		WebUI.click(findTestObject('Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella'))
-		}
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella'),
+	2, FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Object Repository/01 - Login/Page_falabellacom  Todo lo que necesitas en_591ae0/div_Logo_Falabella'))
+}
 		
-		if (WebUI.verifyElementPresent(findTestObject('Object Repository/04 - Revision carrito/Page_Revision carrito/i_CarroCompras'),
-			2, FailureHandling.OPTIONAL)) {
-			WebUI.click(findTestObject('Object Repository/04 - Revision carrito/Page_Revision carrito/i_CarroCompras'))
-			}
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/04 - Revision carrito/Page_Revision carrito/i_CarroCompras'),
+	2, FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Object Repository/04 - Revision carrito/Page_Revision carrito/i_CarroCompras'))
+}
 		
 		
-		if (WebUI.verifyElementPresent(findTestObject('Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProd_Carrito'),
-			2, FailureHandling.OPTIONAL)) {
-			NumArticuloCarrito = WebUI.getText(findTestObject('Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProd_Carrito'))
-			System.out.println(NumArticuloCarrito)
-			}
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProd_Carrito'),
+	2, FailureHandling.OPTIONAL)) {
+	NumArticuloCarrito = WebUI.getText(findTestObject('Object Repository/04 - Revision carrito/Page_Revision carrito/span_CodProd_Carrito'))
+	System.out.println(NumArticuloCarrito)
+}
 		
