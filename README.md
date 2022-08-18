@@ -15,3 +15,24 @@ Estructura:
 - en la carpeta "Test Suites" esta una coleccion de Test que se ocuparan paso a paso. desde el testcase 01 hasta el 05
 - Una vez terminado los Test, se generara un reporte el cual indicara el estado de los elementos, comparaciones y validaciones.
 - El reporte fisico se genera en la carpeta \reports\ en formato HTML
+
+Casos de prueba:
+1.1 Dado: un usuario de la pagina Falabella
+1.2 Cuando: Ingrese a la pagina sitio publico
+1.3 Entonces: Debe mostrar pagina cargada
+
+2.1 Dado: un usuario de la pagina Falabella
+2.2 Cuando: Presione en la cinta "Envio gratis"
+2.3 Entonces: Debe mostrar pagina con Articulos de envio gratis
+
+3.1 Dado: un usuario de la pagina Falabella
+3.2 Cuando: Presione el boton "Agregar al carrito"
+3.3 Entonces: Debe mostrar PopUp correspondiente al articulo
+
+4.1 Dado: un usuario de la pagina Falabella
+4.2 Cuando: Me encuentre en la pagina de inicio con un articulo en el carrito
+4.3 Entonces: Me debera mostrar dicho articulo en la pagina del carrito
+
+5.1 Dado: un usuario de la pagina Falabella
+5.2 Cuando: Se encuentre en pagina de carrito y presione boton "Continuar compra"
+5.3 Entonces: Debera realizar procedimientos de formularios para entrega del producto
